@@ -1,5 +1,5 @@
 # GA4 Ecommerce to Enhanced Ecommerce Converter
-This Google Tag Manager Variable makes it possible to convert **GA4 Ecommerce** to **Enhanced Ecommerce**. This is useful if you want to implement GA4 Ecommerce, but at the same time needs to run Universal Analytics Enhanced Ecommerce in parallel.
+This Google Tag Manager Variable makes it possible to convert **[GA4 Ecommerce](https://developers.google.com/tag-manager/ecommerce-ga4)** to **[Enhanced Ecommerce](https://developers.google.com/tag-manager/enhanced-ecommerce)**. This is useful if you want to implement GA4 Ecommerce, but at the same time needs to run Universal Analytics Enhanced Ecommerce in parallel.
 
 This GTM Variable can also map **Item Paramenters** to **Product Scoped Dimensions & Metrics**, and configure a **Enhanced Ecommerce Checkout** based on your GA4 Ecommerce implementation.
 
