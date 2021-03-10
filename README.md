@@ -35,7 +35,7 @@ To make this mapping easier (and also analysing GA4 data), we recommend that you
 
 ![Checkout setup/mapping](https://github.com/gtm-templates-knowit-experience/ga4-ecom-to-eec-converter/blob/main/images/ga4-ecom-checkout-mapping.jpg)
 
-In the example above, the checkout contains of 3 Checkout Steps.
+In the example above, the checkout contains 3 Checkout Steps.
 1. Step 1 is easy to match, because we can map it against the **begin_checkout** Event, and don’t need any further mapping. This step doesn’t have any parameter that is relevant to use as Checkout Option in this fictual implementation.
 2. Step 2 doesn’t have a GA4 implementation specifically for this step. But, the combination of using **{{Page Path}}** as **GTM Variable**, and matching against **/checkout/step-2** as **GTM Variable Value**, and matching **GTM Event** against **gtm.js** (Page View Event), we are still able to track this as Step 2.
 3. Step 3 is easy to match because we can map it against the **add_payment_info** Event. In addition, we are tracking the **payment_type** Parameter as **EEC Checkout Option**.
@@ -45,7 +45,7 @@ If you are using **Item Scoped Parameters*** in your implementation, use this se
 
 ![Map Item Paramenters to Product Scoped Custom Dimensions or Metrics](https://github.com/gtm-templates-knowit-experience/ga4-ecom-to-eec-converter/blob/main/images/ga4-ecom-item-parameter-mapping.jpg)
 
-*Item Scoped Parameters for GA4 aren’t available yet. Since we don’t know how that will look like when they get available, both Custom Dimensions and Custom Metrics are mapped in the same table.
+*Item Scoped Parameters for GA4 aren’t available yet. Since we don’t know how that will look like when they get available, both Custom Dimensions and Custom Metrics are therefore mapped in the same table.
 
 ## Google Analytics: Universal Analytics Ecommerce Tag Setup
 The image below shows the GA (UA) Ecommerce Tag Setup, using a Event Tag.
