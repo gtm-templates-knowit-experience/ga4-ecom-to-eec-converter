@@ -1,5 +1,5 @@
 # GA4 Ecommerce to Enhanced Ecommerce Converter
-This Google Tag Manager Variable makes it possible to convert **GA4 Ecommerce** to **Enhanced Ecommerce**. This is useful if you want to implement GA4 Ecommerce, but at the same time needs to run Enhanced Ecommerce in parallel.
+This Google Tag Manager Variable makes it possible to convert **GA4 Ecommerce** to **Enhanced Ecommerce**. This is useful if you want to implement GA4 Ecommerce, but at the same time needs to run Universal Analytics Enhanced Ecommerce in parallel.
 
 This GTM Variable can also map **Item Paramenters** to **Product Scoped Dimensions & Metrics**, and configure a **Enhanced Ecommerce Checkout** based on your GA4 Ecommerce implementation.
 
@@ -23,11 +23,7 @@ If your GA4 Ecommerce implementation doesn’t use the recommended **[[GA4] Even
 
 ![Map GA4 Ecommerce to Enhanced Ecommerce Actions](https://github.com/gtm-templates-knowit-experience/ga4-ecom-to-eec-converter/blob/main/images/ga4-ecom-eec-actions-mapping.jpg)
 
-In the example above, **Product/Item Detail Views** has the Event **productView** implemented . This is a non-standard GA4 Event, and because of that, we have to map manually.
-
-**Add to Cart** is implemented with the recommended **add_to_cart** Event. But, since Manual Mapping has been chosen, you will also have to add the implemented recommended Events to the Manual Mapping.
-
-Or, you can create different Variables from the Template; one using Automatic Mapping for the recommended Events, and one using Manual Mapping for incorrect Events. That’s up to you.
+In the example above, **Product/Item Detail Views** has the Event **productView** implemented. This is not a standard GA4 Event, and because of that, we have to map this Event manually.
 
 ## Checkout setup/mapping
 GA4 Ecommerce doesn’t have the same checkout concept as Enhanced Ecommerce with ex. Checkout Steps and Checkout Option.
