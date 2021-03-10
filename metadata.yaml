@@ -1,0 +1,6 @@
+homepage: "https://github.com/gtm-templates-knowit-experience/"
+documentation: "https://github.com/gtm-templates-knowit-experience/ga4-ecom-to-eec-converter"
+versions:
+  # Latest version
+  - sha: c76f40b86a3296261be4d9fc04e7098c277b1fae
+    changeNotes: Initial release.
