@@ -41,7 +41,7 @@ In the example above, the checkout contains 3 Checkout Steps.
 3. Step 3 is easy to match because we can map it against the **add_payment_info** Event. In addition, we are tracking the **payment_type** Parameter as **EEC Checkout Option**.
 
 ## Map Item Paramenters to Product Scoped Custom Dimensions or Metrics
-If you are using **Item Scoped Parameters*** in your implementation, use this setting to map them agains **Product Scoped Custom Dimension or Metrics**.
+If you are using **Item Scoped Parameters*** in your implementation, use this setting to map them against **Product Scoped Custom Dimension or Metrics**.
 
 ![Map Item Paramenters to Product Scoped Custom Dimensions or Metrics](https://github.com/gtm-templates-knowit-experience/ga4-ecom-to-eec-converter/blob/main/images/ga4-ecom-item-parameter-mapping.jpg)
 
