@@ -441,7 +441,7 @@ if (eecAction) {
 				'name': item.item_name,
 				'variant': item.item_variant,
 				'brand': item.item_brand,
-				'price': item.item_price,
+				'price': item.price,
 				'quantity': item.quantity,
 				'coupon': item.item_coupon,
 				'category': category,
