@@ -15,6 +15,7 @@ ___INFO___
   "securityGroups": [],
   "displayName": "GA4 Ecommerce to Enhanced Ecommerce Converter",
   "description": "Convert GA4 Ecommerce to Universal Analytics Enhanced Ecommerce. It supports all EEC Actions, and also Product Scoped Dimensions/Metrics.",
+  "categories": ["ANALYTICS","UTILITY","TAG_MANAGEMENT"],
   "containerContexts": [
     "WEB"
   ]
