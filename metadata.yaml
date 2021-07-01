@@ -2,8 +2,10 @@ homepage: "https://github.com/gtm-templates-knowit-experience/"
 documentation: "https://github.com/gtm-templates-knowit-experience/ga4-ecom-to-eec-converter"
 versions:
   # Latest version
+  - sha: 114325b65859f7458863c9c1b18e47076fe8ea49
+    changeNotes: Added missing categories to template.
+  # Older versions
   - sha: 40b942df93092f493aa860d7b3dee903d323a001
     changeNotes: Fixed price bug.
-  # Older versions
   - sha: c76f40b86a3296261be4d9fc04e7098c277b1fae
     changeNotes: Initial release.
