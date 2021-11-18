@@ -9,6 +9,8 @@ This GTM Variable can also map **Item Parameters** to **Product Scoped Dimension
 - EEC Checkout
 - Map Item Paramenters to Product Scoped Custom Dimensions or Metrics
 
+This Template is available in the [**Google Tag Manager Template Gallery**](https://tagmanager.google.com/gallery/#/owners/gtm-templates-knowit-experience/templates/ga4-ecom-to-eec-converter).
+
 ## GA4 Ecommerce Object selection
 This setting lets you choose if you want to read GA4 Ecommerce data from the **Ecommerce Object (Data Layer)**, or from a **GTM Variable**.
 
