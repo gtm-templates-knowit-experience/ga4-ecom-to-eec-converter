@@ -1,4 +1,4 @@
-﻿___TERMS_OF_SERVICE___
+___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -15,7 +15,11 @@ ___INFO___
   "securityGroups": [],
   "displayName": "GA4 Ecommerce to Enhanced Ecommerce Converter",
   "description": "Convert GA4 Ecommerce to Universal Analytics Enhanced Ecommerce. It supports all EEC Actions, and also Product Scoped Dimensions/Metrics.",
-  "categories": ["ANALYTICS","UTILITY","TAG_MANAGEMENT"],
+  "categories": [
+    "ANALYTICS",
+    "UTILITY",
+    "TAG_MANAGEMENT"
+  ],
   "containerContexts": [
     "WEB"
   ]
@@ -369,6 +373,7 @@ const JSON = require('JSON');
 const makeTableMap = require('makeTableMap');
 // Input settings
 let ecom = data.GTMVariable ? data.GTMVariable : dataLayer('ecommerce', 1); // Data Layer Version 1
+if(ecom) {
 if (JSON.stringify(ecom).indexOf('ecommerce')>0) {ecom = ecom.ecommerce;}
 let event = dataLayer('event',2);
 const itemParamMapTable = data.itemParamMapTable ? makeTableMap(data.itemParamMapTable, 'itemParam', 'paramIndex'): undefined;
@@ -499,6 +504,7 @@ if (eecAction) {
 		}
 	}
     return ecom || undefined;
+}
 }
 }
 
