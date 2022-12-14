@@ -450,11 +450,11 @@ if(ecom) {
           for(let i =0; i < eecItems.length; i++){
           let category;
           const item = eecItems[i];
-            if (item.item_category) {category = item.item_category.replace('/', '_');}
-			if (item.item_category2) {category = category + '/' + item.item_category2.replace('/', '_');}
-			if (item.item_category3) {category = category + '/' + item.item_category3.replace('/', '_');}
-			if (item.item_category4) {category = category + '/' + item.item_category4.replace('/', '_');}
-			if (item.item_category5) {category = category + '/' + item.item_category5.replace('/', '_');}
+            	if (item.item_category) {category = item.item_category.toString().replace('/', '_');}
+		if (item.item_category2) {category = category + '/' + item.item_category2.toString().replace('/', '_');}
+		if (item.item_category3) {category = category + '/' + item.item_category3.toString().replace('/', '_');}
+		if (item.item_category4) {category = category + '/' + item.item_category4.toString().replace('/', '_');}
+		if (item.item_category5) {category = category + '/' + item.item_category5.toString().replace('/', '_');}
 			items.push({
               'id': item.item_id,
               'name': item.item_name,
