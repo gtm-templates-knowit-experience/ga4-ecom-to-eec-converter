@@ -444,7 +444,7 @@ if(ecom) {
     } else  {
       // EEC Products
       currency = eecItems && eecItems.length > 0 ? eecItems[0].currency : currency;
-      affiliation = eecItems && eecItems.length > 0 ? eecItems[0].affiliation : affiliation;
+      affiliation = eecItems.length && !affiliation ? eecItems[0].affiliation : affiliation;
       let items = [];
         if(eecItems) {
           for(let i =0; i < eecItems.length; i++){
